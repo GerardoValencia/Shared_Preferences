@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EBF0"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".ViewPreferences">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F8EBF0"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Mostrar Preferencias"
+            android:textAlignment="center"
+            android:textColor="#7B022B"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monedero"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMonedero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Cerrar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
